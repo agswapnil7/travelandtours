@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+header, footer, .abc{
+    color: white;
+}
+.lh{
+    line-height: 20px;
+}
+.con{
+    margin: auto;
+    width:80%;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+}
+
+footer{
+   background: #2b3035;
+   padding: 50px 0; 
+   text-align: center;
+   color: white;
+   display: inline-block;
+   width: 100%;
+   
+}
+.pd{
+    padding: 20px;
+}
+#carouselExampleFade h1{
+    font-size: 300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#carouselExampleFade h2{
+    font-size: 80px;
+}
+footer ul 
+{
+    list-style: none;
+}
+footer li 
+{
+    line-height: 32px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav-link {
+      margin: 10px 0;
+    }
+  
+  .navbar-brand img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .headicon{
+    display: none;
+  }
+  .con h1 {
+    font-size: 32px;
+  }
+  .con h2 {
+    font-size: 24px;
+  }
+  .con h3 {
+    font-size: 18px;
+  }
+  .con h4 {
+    font-size: 16px;
+  }
+  .col img {
+    max-width: 100%;
+
+  }
+  
+}
+  
